@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = "something";
+
+button1Click(): void {
+    this.title="good choice";
+    //https://www.youtube.com/watch?v=zAhOWyhTF7g 
+  }
 }
