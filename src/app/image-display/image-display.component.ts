@@ -9,7 +9,9 @@ export class ImageDisplayComponent implements OnInit {
   @Input()
   title:string='new title';
 
-  constructor() { }
+  constructor(public room:Room) {
+    
+  }
 
   ngOnInit() {
 
