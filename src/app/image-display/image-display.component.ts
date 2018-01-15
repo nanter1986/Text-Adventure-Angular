@@ -1,5 +1,6 @@
 import { Component, OnInit ,Input} from '@angular/core';
 
+
 @Component({
   selector: 'app-image-display',
   templateUrl: './image-display.component.html',
@@ -9,8 +10,11 @@ export class ImageDisplayComponent implements OnInit {
   @Input()
   title:string='new title';
 
-  constructor(public room:Room) {
-    
+  @Input()
+  imagePath:string="../assets/port.jpg";
+
+  constructor() {
+
   }
 
   ngOnInit() {

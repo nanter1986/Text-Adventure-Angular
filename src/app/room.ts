@@ -5,5 +5,5 @@ interface Room {
   button1(): void;
   button2(): void;
   button3(): void;
-  button4(): void;
+  button4(): Room;
 }
