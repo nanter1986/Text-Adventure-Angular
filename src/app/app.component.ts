@@ -14,6 +14,10 @@ export class AppComponent {
   title: string = this.currentRoom.title;
   imagePath:string=this.currentRoom.imagePath;
 
+  //width responsive
+  //two way navigation
+  //choices
+
   button1Click(): void {
     this.currentRoom.button1();
     this.setStrings();
