@@ -1,13 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <app-image-display [title]="title" [imagePath]="imagePath"></app-image-display>
-<h2>What Will You Do?</h2>
+
 <div id="buttonDiv">
+  <h2>What Will You Do?</h2>
   <button type="button" name="button"
   (click)="button1Click()">Place 1</button>
   <button type="button" name="button"
   (click)="button2Click()">Place 2</button>
   <button type="button" name="button"
   (click)="button3Click()">Place 3</button>
+
+</div>
+<div id="buttonDivNavigation">
   <button type="button" name="button"
-  (click)="button4Click()">Next Room</button>
+  (click)="button4Click()">Previous Room</button>
+  <button type="button" name="button"
+  (click)="button5Click()">Next Room</button>
 </div>

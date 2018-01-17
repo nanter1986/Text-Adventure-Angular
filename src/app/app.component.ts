@@ -14,7 +14,7 @@ export class AppComponent {
   title: string = this.currentRoom.title;
   imagePath:string=this.currentRoom.imagePath;
 
-  //width responsive
+
   //two way navigation
   //choices
 
@@ -35,6 +35,12 @@ export class AppComponent {
 
   button4Click(): void {
     this.currentRoom=this.currentRoom.button4();
+    this.setStrings();
+    console.log(this.imagePath);
+  }
+
+  button5Click(): void {
+    this.currentRoom=this.currentRoom.button5();
     this.setStrings();
     console.log(this.imagePath);
   }

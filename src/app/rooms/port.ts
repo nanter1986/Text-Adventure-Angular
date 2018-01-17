@@ -20,4 +20,8 @@ export class port implements Room {
   button4 = () => {
     return new Market();
   }
+
+  button5 = () => {
+    return new Market();
+  }
 }
