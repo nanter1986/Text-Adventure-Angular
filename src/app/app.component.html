@@ -1,8 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <app-image-display [title]="title" [imagePath]="imagePath"></app-image-display>
-
-<div id="buttonDiv">
+<div id="buttonChoices">
   <h2>What Will You Do?</h2>
+  <button type="button" name="button"
+  (click)="button6Click()">Choice 1</button>
+  <button type="button" name="button"
+  (click)="button7Click()">Choice 2</button>
+  <button type="button" name="button"
+  (click)="button8Click()">Choice 3</button>
+
+</div>
+<div id="buttonDiv">
   <button type="button" name="button"
   (click)="button1Click()">Place 1</button>
   <button type="button" name="button"

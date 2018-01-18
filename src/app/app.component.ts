@@ -14,8 +14,6 @@ export class AppComponent {
   title: string = this.currentRoom.title;
   imagePath:string=this.currentRoom.imagePath;
 
-
-  //two way navigation
   //choices
 
   button1Click(): void {
@@ -43,6 +41,18 @@ export class AppComponent {
     this.currentRoom=this.currentRoom.button5();
     this.setStrings();
     console.log(this.imagePath);
+  }
+
+  button6Click(): void {
+
+  }
+
+  button7Click(): void {
+
+  }
+
+  button8Click(): void {
+     
   }
 
   setStrings():void{
