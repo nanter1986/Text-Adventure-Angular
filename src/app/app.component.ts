@@ -16,6 +16,7 @@ export class AppComponent {
 
   //choices
 
+
   button1Click(): void {
     this.currentRoom.button1();
     this.setStrings();
@@ -44,15 +45,15 @@ export class AppComponent {
   }
 
   button6Click(): void {
-
+      //look
   }
 
   button7Click(): void {
-
+    //activate,take
   }
 
   button8Click(): void {
-     
+    //deactivate,leave
   }
 
   setStrings():void{
